@@ -29,6 +29,8 @@ var countGreetings = greeterMeter.CreateCounter<int>("greetings.count", descript
 
 Configuração do Prometheus para coletar as métricas:
 
+Como é possível perceber na imagem, o gráfico cresceu em alguns momentos do tempo, isso ocorreu porque eu acessei a página várias vezes em momentos diferentes para entender como o gráfico iria se comportar.
+
 <img width="80%" src="./assets/prometheus.png"/>
 </br>
 
